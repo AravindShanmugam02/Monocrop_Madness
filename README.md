@@ -23,9 +23,6 @@ https://github.com/user-attachments/assets/49fce556-be52-472a-8a86-4fd7e89dbdcd
 https://github.com/user-attachments/assets/c4d2cce8-8d93-4353-8e2d-c01f1ed96526
 
 </details>
-<details>
- <summary>Code Snippet</summary>
-</details>
 
 ***Timer***<br/>
 A timer was implemented that controls <ins>game time</ins>, <ins>day & night cycle</ins>, in-game day-to-day <ins>weather</ins> (weather, climate, temperature), <ins>calender</ins>, and also has many useful <ins>time conversions</ins>. The temperature and weather for the following day in game were given random values at the end of each day cycle using a <ins>seed</ins> of type <ins>System.Random</ins>.<br/>
@@ -38,9 +35,6 @@ https://github.com/user-attachments/assets/2fdbb145-54c6-4d16-8779-54febad9507e
 
 https://github.com/user-attachments/assets/bfb7dca8-b91d-45c8-a6ce-acb86108aabe
 
-</details>
-<details>
- <summary>Code Snippet</summary>
 </details>
 
 ***Farm***<br/>
@@ -63,9 +57,6 @@ https://github.com/user-attachments/assets/514294c8-e762-4a07-8b82-107087776df4
 https://github.com/user-attachments/assets/6f722481-5669-4efa-b6ab-f9d2a30939ee
 
 </details>
-<details>
- <summary>Code Snippet</summary>
-</details>
 
 Farming system also has other mechanisms that are incorporated to work together such as:
 * <ins>Cropping pattern tracking system</ins> (Keeps track of what the player had planted last 3 times. Detects the overall pattern of the plot.)
@@ -87,9 +78,6 @@ https://github.com/user-attachments/assets/bc3c762e-14b0-4c06-85db-6a16d6fd71f5
 ***Save, Load & Delete***<br/>
 Save, load and delete game data. Uses binary formatter to serialise and deserialise data and saves to a file. Save is automatic and only happens when player completes slot1 in the game.<br/>
 [Place Holder for video]<br/>
-<details>
- <summary>Code Snippet</summary>
-</details>
 
 ### AI
 ***AI Character***<br/>
@@ -103,9 +91,6 @@ https://github.com/user-attachments/assets/7f6464f4-d531-41f6-aff9-aae7bf0e809a
 https://github.com/user-attachments/assets/e264a402-f5df-4e65-9401-b9f394eff545
 
 </details>
-<details>
- <summary>Code Snippet</summary>
-</details>
 
 AI has a <ins>FOV</ins> implemented to detect player during patrol state.<br/>
 <details>
@@ -114,24 +99,15 @@ AI has a <ins>FOV</ins> implemented to detect player during patrol state.<br/>
 https://github.com/user-attachments/assets/035cb7a3-e88a-4183-bbc9-72e8e47237b4
 
 </details>
-<details>
- <summary>Code Snippet</summary>
-</details>
 
 ### UI
 ***Crosshair***<br/>
 Can interact with objects in the world using crosshair. The interaction options that were displayed to player varies from object to object. A <ins>Ray</ins> is casted from camera through the crosshair in UI to detect what game world objects player is interacting with.<br/>
 [Place Holder for video]<br/>
-<details>
- <summary>Code Snippet</summary>
-</details>
 
 ***Tip***<br/>
 Tips, hints and pop-ups are constructed by this system. Based on the system that triggers a pop-up, the urgency is validated and the urgent messages are poped on the screen for player within 0.5 seconds.<br/>
 [Place Holder for video]<br/>
-<details>
- <summary>Code Snippet</summary>
-</details>
 
 ### 3Cs
 ***Camera, Character, Control***<br/>
@@ -141,9 +117,6 @@ Basic character, camera movement and control.<br/>
 
 https://github.com/user-attachments/assets/c4c91497-366c-4046-ae9e-641f6ae1d884
 
-</details>
-<details>
- <summary>Code Snippet</summary>
 </details>
 
 ## Areas of Improvements
